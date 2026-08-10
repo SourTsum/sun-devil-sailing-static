@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sailing at ASU — Arizona State University's collegiate sailing club.">
+  <meta name="theme-color" content="#8c1d40">
+  <title>Sailing at ASU</title>
+
+  <link rel="icon" type="image/png" href="assets/images/burgee.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/site-data.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="nav-wrap container">
+      <a class="brand" href="#top" aria-label="Sailing at ASU home">
+        <img src="assets/images/burgee.png" alt="Sun Devil Sailing burgee">
+        <span>Sailing at ASU</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#info">Information</a>
+        <a href="#board">Board</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/images/team-photo.jpg" alt="Sailing at ASU team">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">Arizona State University</p>
+        <h1 id="hero-title">Sailing at ASU</h1>
+        <p class="hero-subtitle">Arizona's best <span>(and only)</span> collegiate sailing team!</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#about">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="section-copy">
+          <p class="section-kicker">Who we are</p>
+          <h2>About Us</h2>
+          <p>
+            Sailing at ASU is a sailing club open to people with all levels of experience! We sail FJs on
+            Tempe Town Lake, located just 5 minutes from campus. Our team travels to California, Hawaii,
+            and the Pacific Northwest to compete in regattas against other collegiate sailing teams. We also
+            work with the Arizona Yacht Club. No prior experience is required to join the team: all we ask is
+            that you come ready to learn!
+          </p>
+          <a class="text-link" href="#contact">Get involved <span aria-hidden="true">→</span></a>
+        </div>
+
+        <figure class="about-photo">
+          <img src="assets/images/team-photo.jpg" alt="Members of Sailing at ASU together on a team trip" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="info">
+      <div class="container">
+        <div class="section-heading section-heading-row">
+          <div>
+            <p class="section-kicker">What to expect</p>
+            <h2>Club Information</h2>
+            <p>A quick view of the commitments, schedule, and travel that come with Sailing at ASU.</p>
+          </div>
+        </div>
+
+        <!-- Populated from assets/js/site-data.js so recurring details are easy to update. -->
+        <div class="info-grid" id="info-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="board">
+      <div class="container">
+        <div class="board-heading">
+          <div class="section-heading">
+            <p class="section-kicker">Leadership</p>
+            <h2>Meet the Board</h2>
+            <p>Meet the students who organize practices, travel, finances, events, and everything that keeps the team moving.</p>
+          </div>
+
+          <div class="board-term-control" id="board-term-control" hidden>
+            <label for="board-term-select">Board term</label>
+            <select id="board-term-select" aria-label="Choose board semester"></select>
+          </div>
+        </div>
+
+        <!-- Board cards are generated from assets/js/site-data.js. -->
+        <div class="board-grid" id="board-grid"></div>
+
+        <div class="board-carousel-controls" id="board-carousel-controls" hidden aria-label="Board member carousel controls">
+          <button class="carousel-button" id="board-prev" type="button" aria-label="Previous board member">&#8592;</button>
+          <div class="carousel-status">
+            <span id="board-position" aria-live="polite"></span>
+            <div class="carousel-dots" id="board-dots" aria-hidden="true"></div>
+          </div>
+          <button class="carousel-button" id="board-next" type="button" aria-label="Next board member">&#8594;</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-kicker section-kicker-light">Come sail with us</p>
+          <h2>Contact Us</h2>
+          <p class="contact-lead">Please reach out to us on one of the following platforms to learn more about how you can get involved with Sailing at ASU!</p>
+          <a class="email-link" href="mailto:asusailingclub@gmail.com">asusailingclub@gmail.com</a>
+
+          <div class="social-links" aria-label="Social media links">
+            <a href="https://www.instagram.com/sailingatasu/" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.tiktok.com/@sailingclubasu" target="_blank" rel="noopener noreferrer">TikTok</a>
+            <a href="https://www.facebook.com/ASUSailing/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+
+        <div class="links-panel">
+          <h3>Useful Links</h3>
+          <a href="https://sundevilsailing.square.site/" target="_blank" rel="noopener noreferrer">Sailing Store <span>↗</span></a>
+          <a href="https://fitness.asu.edu/teams-and-clubs/sport-clubs" target="_blank" rel="noopener noreferrer">DoSportsEasy / Sport Clubs <span>↗</span></a>
+          <a href="https://asu.campuslabs.com/engage/organization/sailing-club-asu" target="_blank" rel="noopener noreferrer">SunDevilSync <span>↗</span></a>
+          <a href="https://scores.collegesailing.org/" target="_blank" rel="noopener noreferrer">TechScore <span>↗</span></a>
+          <a href="https://pccsc.collegesailing.org/" target="_blank" rel="noopener noreferrer">PCCSC Site <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="assets/images/burgee.png" alt="" aria-hidden="true">
+        <span>Sailing at ASU</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
