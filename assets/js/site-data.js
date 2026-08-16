@@ -77,7 +77,7 @@ window.SITE_DATA = {
           name: "Alex Stellato",
           role: "Treasurer",
           image: "assets/images/alex-stellato.png",
-          bio: "Alex is an incoming junior studying Computer Science. He has been sailing competitively for five years and loves the competitive side of the sport. Outside of sailing, he enjoys coding, hiking, traveling, and spending time with friends."
+          bio: "Alex is an junior studying Computer Science. He has been sailing competitively for five years and loves the competitive side of the sport. Outside of sailing, he enjoys coding, hiking, traveling, and spending time with friends."
         },
         {
           name: "Will Harris",
