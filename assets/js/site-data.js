@@ -65,7 +65,7 @@ window.SITE_DATA = {
           name: "Camden Wacha",
           role: "Vice President",
           image: "assets/images/camden-wacha.png",
-          bio: "TODO:add_bio"
+          bio: "Camden is a Senior studying Sustainability and Urban Planning. This is his fourth year on the team and his second as VP. He is excited to welcome new sailors!"
         },
         {
           name: "Veja Zaprauskis",
@@ -77,19 +77,19 @@ window.SITE_DATA = {
           name: "Alex Stellato",
           role: "Treasurer",
           image: "assets/images/alex-stellato.png",
-          bio: "TODO:add_bio"
+          bio: "Alex is an incoming junior studying Computer Science. He has been sailing competitively for five years and loves the competitive side of the sport. Outside of sailing, he enjoys coding, hiking, traveling, and spending time with friends."
         },
         {
           name: "Will Harris",
           role: "Volunteer Coordinator",
           image: "assets/images/will-harris.png",
-          bio: "TODO:add_bio"
+          bio: "Will is a junior studying Biology. He just started sailing with the team last year, but is very enthusiastic about learning more about sailing! In his free time, he loves to be in the outdoors and spend time with friends."
         },
         {
           name: "Erin Welker",
           role: "PR Director",
           image: "assets/images/erin-welker.png",
-          bio: "TODO:add_bio"
+          bio: "Erin is a senior studying Sustainability. This is her fourth year on the team and third year on the board. She is excited to get out on the water, travel, and compete with new and familiar faces!"
         }
       ]
     }
