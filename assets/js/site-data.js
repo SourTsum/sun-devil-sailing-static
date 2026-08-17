@@ -59,7 +59,7 @@ window.SITE_DATA = {
           name: "Max Herbreteau",
           role: "President",
           image: "assets/images/max-herbreteau.png",
-          bio: "TODO:add_bio"
+          bio: "Max is a junior studying Architecture and Marketing (Professional Sales). This is her second year on the team, and she’s excited for another great season! She enjoys many outdoor activities, especially swimming, hiking, and spending time on the water."
         },
         {
           name: "Camden Wacha",
