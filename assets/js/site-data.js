@@ -71,7 +71,7 @@ window.SITE_DATA = {
           name: "Veja Zaprauskis",
           role: "Secretary",
           image: "assets/images/veja-zaprauskis.png",
-          bio: "TODO:add_bio"
+          bio: "Veja is a junior studying Business Global Politics. This is her third year on the team, and she learned how to sail here at ASU. She is from Boston and loves spending time outside on the water, and traveling to new places to compete with sailors from other schools."
         },
         {
           name: "Alex Stellato",
